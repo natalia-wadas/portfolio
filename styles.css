@@ -44,6 +44,9 @@ section {
   
 #projects {
     margin-top: 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -245,4 +248,27 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.details-container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.project a {
+    display: block;
+    text-decoration: none;
+}
+
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.thumbnail {
+    max-width: 100%;
+    height: auto;
 }
