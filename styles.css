@@ -31,20 +31,20 @@ header {
 section {
     margin-bottom: 0;
     padding-bottom: 0;
-  }
+}
   
-  #hero h2{
+#hero h2{
     font-size: 3em;
     padding: 0;
     margin: 0;
     transform: scaleY(3.5);
     display: inline-block;
     line-height: 0.9;
-  }
+}
   
-  #projects {
+#projects {
     margin-top: 0;
-  }
+}
 
 nav ul {
     list-style: none;
@@ -89,7 +89,7 @@ nav a:hover {
 
 .profile-pic {
     width: 220px;
-    height: 290px;
+    height: 280px;
 }
 
 .hero-text {
@@ -221,5 +221,5 @@ footer {
     width: 100%;
     margin: 0 auto;
     text-align: left;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
