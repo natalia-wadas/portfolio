@@ -96,7 +96,7 @@ nav a:hover {
     border-radius: 40px; /* Zaokrąglenie rogów */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Cień dla efektu warstw */
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: -30px;
 }
 
 #projects h2 {
