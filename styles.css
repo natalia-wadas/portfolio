@@ -127,14 +127,14 @@ nav a:hover {
 }
 
 .project h3 {
-    min-height: 60px; /* Wysokość dla tytułu */
+    min-height: 80px; /* Wysokość dla tytułu */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .project p {
-    min-height: 50px; /* Stała wysokość dla opisu */
+    min-height: 80px; /* Stała wysokość dla opisu */
     display: flex;
     align-items: center;
     justify-content: center;
