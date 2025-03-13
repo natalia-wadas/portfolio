@@ -84,6 +84,7 @@ nav a:hover {
     transform: scaleY(3.5);
     display: inline-block;
     line-height: 0.9;
+    padding: 10px;
 }
 
 /* Sekcja projektów */
