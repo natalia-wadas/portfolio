@@ -206,8 +206,13 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    max-height: 300px;
+    max-height: 250px;
     object-fit: contain;
+}
+
+.details .project h2, 
+.details .project p {
+    margin: 10px 0;
 }
 
 footer {
