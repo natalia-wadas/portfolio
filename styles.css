@@ -11,7 +11,7 @@ body {
     color: #000222;
     font-family: 'Michroma', sans-serif;
     text-align: center;
-    padding: 250px 0 20px; /* Zwiększony padding dla większego odstępu */
+    padding: 200px 0 20px;
 }
 
 /* Nagłówek */
@@ -30,6 +30,24 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
+/* Nawigacja */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #000222;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
 /* Sekcja hero */
 #hero {
     display: flex;
@@ -38,33 +56,62 @@ header {
     justify-content: center;
     text-align: left;
     gap: 20px;
-    padding: 15vh 15px 25vh; /* Zwiększony dolny padding dla większej przerwy przed "Moje Projekty" */
+    padding: 10vh 15px 20vh;
     margin: 0 auto;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.profile-pic {
+    width: 220px;
+    height: 280px;
+}
+
+.hero-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+#hero h2 {
+    font-size: 2.9em;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    transform: scaleY(3.5);
+    display: inline-block;
+    line-height: 0.9;
 }
 
 /* Sekcja projektów */
 #projects {
     width: 90%;
-    margin: 20px auto; /* Zwiększony margines dla lepszego oddzielenia sekcji */
-    padding: 80px 40px; /* Większy padding górny */
+    margin: -80px auto; /* Mniejsza wartość, aby sekcja nie zasłaniała kontaktu */
+    padding: 60px 40px;
     background-color: #d4b996;
-    border-radius: 40px;
+    border-radius: 40px 40px 40px 40px; /* Zaokrąglone tylko górne rogi */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-bottom: -40px; /* Zmniejszenie nachodzenia na kontakt */
 }
 
 #projects h2 {
-    font-size: 3.5em;
-    margin-bottom: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 70px;
 }
 
 /* Galeria */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px; /* Zmniejszona przerwa dla bardziej zwartego układu */
+    gap: 30px; /* Większa przerwa dla równego rozkładu */
     justify-items: center;
-    padding: 30px;
+    padding: 40px;
 }
 
 /* Projekty */
@@ -75,22 +122,35 @@ header {
     max-width: 300px;
     width: 100%;
     text-align: center;
-    margin-bottom: 0.2rem; /* Mniejszy odstęp między projektami */
+    margin-bottom: 0.5rem;
+    min-height: 520px; /* Równa wysokość dla wszystkich projektów */
 }
 
 .project img {
     width: 100%;
     max-width: 400px;
     display: block;
-    margin-top: 5px; /* Zmniejszona odległość między obrazkiem a tytułem */
+    margin-top: 10px;
     border-radius: 5px;
     transition: 0.3s;
 }
 
+.project img:hover {
+    opacity: 0.8;
+}
+
 .thumbnail {
-    height: 160px; /* Zmniejszona wysokość miniatur */
+    width: auto;
+    height: 180px;
     object-fit: cover;
     border-radius: 10px;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+    transform: scale(1.2);
+    z-index: 10;
 }
 
 /* Struktura projektów */
@@ -98,24 +158,74 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0.8rem; /* Zmniejszony gap między projektami */
-    align-items: flex-start;
+    gap: 1rem;
+    align-items: flex-start; /* Wszystkie na tej samej wysokości */
 }
 
 .details {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     align-items: flex-start;
 }
 
+.main-projects .project, .details .project {
+    flex: 0 1 400px;
+    max-width: 400px;
+}
+
+.details .project {
+    flex: 0 1 300px;
+    max-width: 300px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.details .project img {
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+}
+
 .details .project h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px; /* Zmniejszona odległość między tytułem a opisem */
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .details .project p {
-    font-size: 1em;
-    margin-bottom: 5px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Stopka */
+footer {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 40px;
+    color: white;
+}
+
+/* Sekcja kontaktowa */
+#contact {
+    padding-top: 50px; /* Zapewnienie, że kontakt nie zachodzi */
+}
+
+#contact p, h2 {
+    margin-bottom: 15px;
+}
+
+/* Opisy projektów */
+.description {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.15em;
 }
