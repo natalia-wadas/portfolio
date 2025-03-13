@@ -139,6 +139,23 @@ nav a:hover {
     opacity: 0.8;
 }
 
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.project-thumbnail {
+    height: 200px;
+    object-fit: cover;
+}
+
+.projects-section {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
 .thumbnail {
     width: 300px;
     height: 200px;
