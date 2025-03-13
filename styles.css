@@ -45,20 +45,20 @@ section {
 #projects {
     position: relative;
     background-color: #d4b996;
-    padding: 80px 5vw;
-    border-radius: 0;
-    width: 100vw;
-    max-width: 100%;
+    padding: 80px 40px;
+    border-radius: 80px;
+    margin-top: -100px;
 }
 
 #projects::before {
     content: "";
     position: absolute;
     top: -50px;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    width: 120%;
     height: 100px;
     background-color: #d4b996;
+    border-radius: 50%;
     transform: translateX(-50%);
     z-index: -1;
 }
@@ -67,19 +67,13 @@ section {
     content: "";
     position: absolute;
     bottom: -50px;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    width: 120%;
     height: 100px;
     background-color: #d4b996;
+    border-radius: 50%;
     transform: translateX(-50%);
     z-index: -1;
-}
-
-#projects h2 {
-    font-size: 4em;
-    color: white;
-    position: relative;
-    z-index: 2;
 }
 
 nav ul {
