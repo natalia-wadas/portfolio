@@ -89,15 +89,19 @@ nav a:hover {
 
 /* Sekcja projektów */
 #projects {
-    background-color: #d4b996;
+    width: 90%; /* Mniejsza szerokość, aby było widać tło po bokach */
+    margin: -100px auto; /* Efekt "nałożenia" sekcji */
     padding: 80px 40px;
+    background-color: #d4b996;
+    border-radius: 40px; /* Zaokrąglenie rogów */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Cień dla efektu warstw */
     text-align: center;
 }
 
 #projects h2 {
     font-size: 4em;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 70px; /* Większy odstęp */
 }
 
 /* Galeria */
@@ -149,10 +153,9 @@ nav a:hover {
 /* Struktura projektów */
 .main-projects, .details {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Wyśrodkowanie miniaturek */
     flex-wrap: wrap;
     gap: 40px;
-    width: 100%;
     align-items: flex-start;
 }
 
