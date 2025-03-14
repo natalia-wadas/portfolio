@@ -8,7 +8,7 @@
 
 /* Stylizacja całej strony */
 body {
-    background-color: #FFFFFF;
+    background-color: #FAF8F1;
     color: #000222;
     font-family: 'Michroma', sans-serif;
     text-align: center;
@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #FAF8F1;
+    background: #FFFFFF;
     position: fixed;
     width: 100%;
     top: 0;
