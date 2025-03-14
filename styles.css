@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9);
+    background: #FAF8F1;
     position: fixed;
     width: 100%;
     top: 0;
@@ -93,7 +93,7 @@ nav a:hover {
     width: 90%;
     margin: -80px auto; /* Mniejsza wartość, aby sekcja nie zasłaniała kontaktu */
     padding: 60px 40px;
-    background-color: #eaeaea;
+    background-color: #D9DFDF;
     border-radius: 40px 40px 40px 40px; /* Zaokrąglone tylko górne rogi */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
