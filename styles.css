@@ -7,7 +7,7 @@
 
 /* Stylizacja całej strony */
 body {
-    background-color: rgb(237,229,222);
+    background-color: rgb(244, 241, 238);
     color: #000222;
     font-family: 'Michroma', sans-serif;
     text-align: center;
@@ -93,7 +93,7 @@ nav a:hover {
     width: 90%;
     margin: -80px auto; /* Mniejsza wartość, aby sekcja nie zasłaniała kontaktu */
     padding: 60px 40px;
-    background-color: #d3dadc;
+    background-color: #e1e8e9;
     border-radius: 40px 40px 40px 40px; /* Zaokrąglone tylko górne rogi */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
