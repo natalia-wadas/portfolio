@@ -5,22 +5,31 @@
     box-sizing: border-box;
 }
 
+main {
+    flex: 1;
+}
+
 /* Stylizacja całej strony */
 body {
-    background-color: #f4faed;
+    background-color: #FAF8F1;
     color: #000222;
     font-family: 'Michroma', sans-serif;
     text-align: center;
     padding: 200px 0 20px;
 }
 
+html, body {
+    height: 100%;
+}
+
 /* Nagłówek */
 header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #FAF8F1;
+    background: #FFFFFF;
     position: fixed;
     width: 100%;
     top: 0;
