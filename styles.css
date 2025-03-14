@@ -58,6 +58,7 @@ nav a:hover {
     gap: 20px;
     padding: 10vh 15px 20vh;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .hero-content {
