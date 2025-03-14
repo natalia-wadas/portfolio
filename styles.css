@@ -97,7 +97,7 @@ nav a:hover {
     border-radius: 40px 40px 40px 40px; /* Zaokrąglone tylko górne rogi */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-bottom: -40px; /* Zmniejszenie nachodzenia na kontakt */
+    margin-bottom: 80px; /* Zmniejszenie nachodzenia na kontakt */
 }
 
 #projects h2 {
@@ -224,17 +224,8 @@ nav a:hover {
 footer {
     padding: 20px;
     background: rgba(0, 0, 0, 0.8);
-    margin-top: 40px;
+    margin-top: 80px;
     color: white;
-}
-
-/* Sekcja kontaktowa */
-#contact {
-    padding-top: 50px; /* Zapewnienie, że kontakt nie zachodzi */
-}
-
-#contact p, h2 {
-    margin-bottom: 15px;
 }
 
 /* Opisy projektów */
