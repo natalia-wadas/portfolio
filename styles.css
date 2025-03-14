@@ -8,7 +8,7 @@
 
 /* Stylizacja całej strony */
 body {
-    background-color: #fff9eb;
+    background-color: #E3DCD2;
     color: #000222;
     font-family: 'Michroma', sans-serif;
     text-align: center;
@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #FFFFFF;
+    background: #FAF8F1;
     position: fixed;
     width: 100%;
     top: 0;
@@ -95,7 +95,7 @@ nav a:hover {
     width: 90%;
     margin: -80px auto; /* Mniejsza wartość, aby sekcja nie zasłaniała kontaktu */
     padding: 60px 40px;
-    background-color: #f5f8f8;
+    background-color: #D9DFDF;
     border-radius: 40px 40px 40px 40px; /* Zaokrąglone tylko górne rogi */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -225,7 +225,7 @@ nav a:hover {
 /* Stopka */
 footer {
     padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
+    background: #514F4B;
     margin-top: 120px;
     color: white;
 }
