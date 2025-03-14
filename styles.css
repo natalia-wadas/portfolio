@@ -95,7 +95,7 @@ nav a:hover {
     width: 90%;
     margin: -80px auto; /* Mniejsza wartość, aby sekcja nie zasłaniała kontaktu */
     padding: 60px 40px;
-    background-color: #1ce7e7;
+    background-color: #eef5f5;
     border-radius: 40px 40px 40px 40px; /* Zaokrąglone tylko górne rogi */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
